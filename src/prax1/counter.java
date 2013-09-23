@@ -1,4 +1,4 @@
-package test;
+package prax1;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -7,15 +7,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Hello
+ * Servlet implementation class counter
  */
-public class Hello extends HttpServlet {
+public class counter extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    
+	int count = 0;
+	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().println("Hello");
+		count++;
+		response.getWriter().println(count);
 	}
 
 	/**
@@ -24,5 +25,7 @@ public class Hello extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 	}
+	
+	
 
 }

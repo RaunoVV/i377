@@ -19,4 +19,34 @@
     <servlet-name>Hello</servlet-name>
     <url-pattern>/Hello</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>nimi</display-name>
+    <servlet-name>nimi</servlet-name>
+    <servlet-class>prax1.nimi</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>nimi</servlet-name>
+    <url-pattern>/nimi</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>counter</display-name>
+    <servlet-name>counter</servlet-name>
+    <servlet-class>prax1.counter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>counter</servlet-name>
+    <url-pattern>/counter</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>kellaaeg</display-name>
+    <servlet-name>kellaaeg</servlet-name>
+    <servlet-class>prax1.kellaaeg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kellaaeg</servlet-name>
+    <url-pattern>/kellaaeg</url-pattern>
+  </servlet-mapping>
 </web-app>
