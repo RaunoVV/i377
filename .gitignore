@@ -1,3 +1,5 @@
 build
 WebContent\WEB-INF\lib
 *.class
+.project
+.settings
